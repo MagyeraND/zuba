@@ -1,0 +1,12 @@
+{
+  "name": "zuba-ai",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Zuba AI Monorepo",
+  "scripts": {
+    "dev:web": "pnpm --filter web dev",
+    "dev:mobile": "pnpm --filter mobile start",
+    "build": "pnpm -r run build",
+    "test": "pnpm -r run test"
+  }
+}

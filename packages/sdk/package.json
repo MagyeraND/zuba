@@ -1,0 +1,11 @@
+{
+  "name": "@zuba/sdk",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "dependencies": {
+    "@zuba/router": "workspace:*"
+  },
+  "exports": {
+    ".": "./src/index.ts"
+  }
+}

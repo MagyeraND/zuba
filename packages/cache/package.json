@@ -1,0 +1,8 @@
+{
+  "name": "@zuba/cache",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "exports": {
+    ".": "./src/index.ts"
+  }
+}
